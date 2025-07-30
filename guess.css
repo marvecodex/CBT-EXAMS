@@ -1,0 +1,74 @@
+    body {
+      font-family: Arial, sans-serif;
+      background: #050020;
+      text-align: center;
+      padding-top: 50px;
+    }
+    #resultBox {
+      background: #000000;
+      border: none;
+      padding: 20px;
+      width: 80%;
+      max-width: 400px;
+      margin: 0 auto 20px;
+      border-radius: 8px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #48ff00;
+      height: 1vh;
+    }
+    h1 {
+      color: #ffc933;
+    }
+    h6{
+        color: #ffff;
+        font-size: 16px;
+    }
+    h6 span{
+        color: #ffc933;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .play{
+      position: absolute;
+      box-sizing: border-box;
+        border-radius: 20px;
+        margin-left: 400px;
+        width: 40%;
+        height: 30vh;
+        border: 3px;
+        background: linear-gradient(rgba(0,0,40,0.9),rgba(80,0,9,0.4));
+    }
+    p{
+        position: relative;
+        margin-left: 0px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    p span{
+        color: #48ff00;
+    }
+    input {
+        border: none;
+        border-radius: 10px;
+        margin-top: 30px;
+        outline: none;
+        overflow: hidden;
+      padding: 10px;
+      width: 70%;
+      font-size: 16px;
+    }
+    button {
+        border-radius: 7px;
+        width: 70%;
+      padding: 10px 20px;
+      margin-left: 10px;
+      background: #48ff00;
+      color: rgb(0, 0, 0);
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #218838;
+    }
